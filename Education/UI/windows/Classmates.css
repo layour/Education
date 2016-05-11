@@ -1,4 +1,4 @@
- #Home {
+ #Classmates {
 halign:center;
 height:fill;
 layout:vbox;
@@ -68,8 +68,8 @@ padding-right:50;
 halign:CENTER;
 height:49;
 layout:hbox;
-width:fill;
 background:#F5F5F5;
+width:fill;
 valign:top;
 }
  #imagebutton2 {

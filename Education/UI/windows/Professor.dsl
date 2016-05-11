@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<window xmlns:web="http://www.yonyou.com/uapmobile/dsl" id="Home" canvaswidth="768" canvasheight="432" orientation="horizontal" controller="HomeController" namespace="com.yonyou.education">  
-    <import ref="Home.css" type="css"/>  
+<window xmlns:web="http://www.yonyou.com/uapmobile/dsl" id="Professor" canvaswidth="768" canvasheight="432" orientation="horizontal" controller="ProfessorController" namespace="com.yonyou.education">  
+    <import ref="Professor.css" type="css"/>  
     <link type="text/css" href="sys/theme.css"/>  
     <div id="viewPage0"> 
         <div id="panel0"> 
@@ -11,10 +11,10 @@
         </div>  
         <div id="panel1"/>  
         <toolbar id="toolbar0"> 
-            <input imagebuttontype="icontext" id="imagebutton2" value="首页" istogglebutton="false" class="imagebuttonclass" onclick="this.changePage()" type="imagebutton" checked="true"/>  
+            <input imagebuttontype="icontext" id="imagebutton2" value="首页" istogglebutton="false" class="imagebuttonclass" onclick="this.changePage()" type="imagebutton" checked="false"/>  
             <input imagebuttontype="icontext" id="imagebutton3" value="课程" istogglebutton="false" class="imagebuttonclass" onclick="this.changePage()" type="imagebutton" checked="false"/>  
             <input imagebuttontype="icontext" id="imagebutton4" value="课件" istogglebutton="false" class="imagebuttonclass" onclick="this.changePage()" type="imagebutton" checked="false"/>  
-            <input imagebuttontype="icontext" id="imagebutton5" value="教授" istogglebutton="false" class="imagebuttonclass" onclick="this.changePage()" type="imagebutton" checked="false"/>  
+            <input imagebuttontype="icontext" id="imagebutton5" value="教授" istogglebutton="false" class="imagebuttonclass" onclick="this.changePage()" type="imagebutton" checked="true"/>  
             <input imagebuttontype="icontext" id="imagebutton6" value="同学录" istogglebutton="false" class="imagebuttonclass" onclick="this.changePage()" type="imagebutton" checked="false"/>  
             <input imagebuttontype="icontext" id="imagebutton7" value="个人中心" istogglebutton="false" class="imagebuttonclass" onclick="this.changePage()" type="imagebutton" checked="false"/> 
         </toolbar> 
