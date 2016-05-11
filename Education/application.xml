@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<application id="Education" appname="Education" versionCode="1" versionName="1" icon="app" theme="blue" jsengine="v2.0" package="com.yonyou.education" language="zh_cn" autoCheckUpdate="false">
-  <permission id="internet"/>
-  <start view="Home"/>
-  <!--view id="demo" ref="demo.dsl"><extend screenOrientation="landscape|portrait|unspecified"/></view-->
-  <!--view id="demo" ref="demo.dsl"><extend windowSoftInputMode="stateUnspecified|stateUnchanged|stateHidden|stateAlwaysHidden|stateVisible|stateAlwaysVisible|adjustUnspecified|adjustResize|adjustPan"/></view-->
-  <view id="Home" ref="Home.dsl" include="true"/>
+<application id="Education" appname="Education" versionCode="1" versionName="1" icon="app" theme="blue" jsengine="v2.0" package="com.yonyou.education" language="zh_cn" autoCheckUpdate="false"> 
+  <permission id="internet"/>  
+  <start view="Home"/>  
+  <!--view id="demo" ref="demo.dsl"><extend screenOrientation="landscape|portrait|unspecified"/></view-->  
+  <!--view id="demo" ref="demo.dsl"><extend windowSoftInputMode="stateUnspecified|stateUnchanged|stateHidden|stateAlwaysHidden|stateVisible|stateAlwaysVisible|adjustUnspecified|adjustResize|adjustPan"/></view-->  
+  <view id="Home" ref="Home.dsl" include="true"/> 
 </application>
 <!--
 【屏幕显示方向】
