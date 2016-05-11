@@ -10,7 +10,8 @@
   <view id="Courseware" ref="Courseware.dsl" include="true"/>  
   <view id="Professor" ref="Professor.dsl" include="true"/>  
   <view id="Classmates" ref="Classmates.dsl" include="true"/>  
-  <view id="MyCenter" ref="MyCenter.dsl" include="true"/>
+  <view id="MyCenter" ref="MyCenter.dsl" include="true"/>  
+  <view id="Login" ref="Login.dsl" include="true"/>
 </application>
 <!--
 【屏幕显示方向】

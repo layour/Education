@@ -14,12 +14,12 @@ width:fill;
 valign:TOP;
 }
  #panel0 {
-padding-right:8;
 padding-left:8;
+padding-right:8;
 halign:LEFT;
 height:44;
-background:#00a1ea;
 layout:hbox;
+background:#00a1ea;
 width:fill;
 valign:center;
 }
@@ -54,22 +54,43 @@ icon-pressed-image:button_image_touch;
 icon-text-spacing:3;
 }
  #panel1 {
-halign:center;
+halign:CENTER;
 height:0;
 weight:1;
-layout:vbox;
 background:#ffffff;
+layout:hbox;
 width:fill;
+valign:top;
+}
+ #panel4 {
+halign:center;
+height:60.0;
+layout:vbox;
+width:120.0;
+valign:TOP;
+}
+ #panel3 {
+halign:center;
+height:60.0;
+layout:vbox;
+width:120.0;
+valign:TOP;
+}
+ #panel2 {
+halign:center;
+height:60.0;
+layout:vbox;
+width:120.0;
 valign:TOP;
 }
  #toolbar0 {
-padding-left:50;
 padding-right:50;
+padding-left:50;
 halign:CENTER;
 height:49;
+background:#F5F5F5;
 layout:hbox;
 width:fill;
-background:#F5F5F5;
 valign:top;
 }
  #imagebutton2 {
