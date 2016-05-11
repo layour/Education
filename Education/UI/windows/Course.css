@@ -62,6 +62,164 @@ layout:vbox;
 width:fill;
 valign:TOP;
 }
+ #listviewdefine0 {
+halign:center;
+height:fill;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #panel2 {
+padding-right:12;
+padding-left:12;
+border-bottom-width:1;
+halign:LEFT;
+height:60.0;
+background:#FFFFFF;
+layout:hbox;
+width:fill;
+valign:center;
+border-bottom-color:#C7C7C7;
+}
+ #label1 {
+halign:left;
+height:wrap;
+weight:3;
+color:#9B9B9B;
+heightWrap:20.0;
+font-size:14;
+width:0;
+font-family:default;
+valign:center;
+}
+ #label2 {
+halign:center;
+height:wrap;
+weight:1;
+color:#9B9B9B;
+heightWrap:20.0;
+font-size:14;
+width:0;
+font-family:default;
+valign:center;
+}
+ #label4 {
+halign:center;
+height:wrap;
+weight:1;
+color:#9B9B9B;
+heightWrap:20.0;
+font-size:14;
+width:0;
+font-family:default;
+valign:center;
+}
+ #label3 {
+halign:center;
+height:wrap;
+weight:1;
+color:#9B9B9B;
+heightWrap:20.0;
+font-size:14;
+width:0;
+font-family:default;
+valign:center;
+}
+ #label5 {
+halign:center;
+height:wrap;
+weight:1;
+color:#9B9B9B;
+heightWrap:20.0;
+font-size:14;
+width:0;
+font-family:default;
+valign:center;
+}
+ #panel3 {
+padding-right:12;
+padding-left:12;
+border-bottom-width:1;
+halign:LEFT;
+height:60.0;
+background:#FFFFFF;
+layout:hbox;
+width:fill;
+valign:center;
+border-bottom-color:#C7C7C7;
+}
+ #panel4 {
+halign:center;
+height:50;
+weight:3;
+layout:vbox;
+width:0;
+valign:TOP;
+}
+ #label6 {
+halign:left;
+height:0;
+weight:1;
+color:#696869;
+font-size:14;
+width:fill;
+font-family:default;
+valign:center;
+}
+ #label11 {
+halign:left;
+height:0;
+weight:1;
+color:#9B9B9B;
+font-size:12;
+width:fill;
+font-family:default;
+valign:center;
+}
+ #label7 {
+halign:center;
+height:wrap;
+weight:1;
+color:#00a1ea;
+heightWrap:20.0;
+font-size:14;
+width:0;
+font-family:default;
+valign:center;
+}
+ #label8 {
+halign:center;
+height:wrap;
+weight:1;
+color:#00a1ea;
+heightWrap:20.0;
+font-size:14;
+width:0;
+font-family:default;
+valign:center;
+}
+ #label9 {
+halign:center;
+height:wrap;
+weight:1;
+color:#00a1ea;
+heightWrap:20.0;
+font-size:14;
+width:0;
+font-family:default;
+valign:center;
+}
+ #label10 {
+halign:center;
+height:wrap;
+weight:1;
+color:#00a1ea;
+heightWrap:20.0;
+font-size:14;
+width:0;
+font-family:default;
+valign:center;
+}
  #toolbar0 {
 padding-right:50;
 padding-left:50;

@@ -38,7 +38,33 @@ function com$yonyou$education$HomeController$evaljs(js){
 function com$yonyou$education$HomeController$changePage(sender, args){
 	
 }
+function com$yonyou$education$HomeController$loadList(sender, args){
+	var json = {
+		list : [{
+			title : "审批通知",
+			time : "2011-09-20 12：00:00"
+		},{
+			title : "审批通知",
+			time : "2011-09-20 12：00:00"
+		},{
+			title : "审批通知",
+			time : "2011-09-20 12：00:00"
+		},{
+			title : "审批通知",
+			time : "2011-09-20 12：00:00"
+		}]
+	}
+	$ctx.push(json);
+}
+function com$yonyou$education$HomeController$openListDetail(sender, args){
+	$view.open({
+		"viewid" : "com.yonyou.education.MessageDetail",//目标页面（首字母大写）全名，
+		"isKeep" : "true"
+	});
+}
 com.yonyou.education.HomeController.prototype = {
+    openListDetail : com$yonyou$education$HomeController$openListDetail,
+    loadList : com$yonyou$education$HomeController$loadList,
     changePage : com$yonyou$education$HomeController$changePage,
     initialize : com$yonyou$education$HomeController$initialize,
     evaljs : com$yonyou$education$HomeController$evaljs

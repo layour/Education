@@ -10,9 +10,23 @@
             <input id="imagebutton1" imagebuttontype="icon" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/> 
         </div>
         <div id="panel1">
-            <div id="panel4"/>
-            <div id="panel3"/>
-            <div id="panel2"/>
+            <div id="panel4">
+                <image id="image0" scaletype="fitcenter" src="myhead.png"/>
+                <label id="label3">杜雪飞</label>
+            </div>
+            <div id="panel3">
+                <input id="imagebutton8" imagebuttontype="text" value="学院新闻" istogglebutton="false" type="imagebutton" checked="false"/>
+                <input id="imagebutton9" imagebuttontype="text" value="个人通知" istogglebutton="false" type="imagebutton" checked="false"/>
+                <input id="imagebutton10" imagebuttontype="text" value="公共通知" istogglebutton="false" type="imagebutton" checked="false"/>
+            </div>
+            <div id="panel2">
+                <listView id="listviewdefine0" bindfield="list" onload="this.loadList()" onitemclick="this.openListDetail()" collapsed="true">
+                    <div id="panel5">
+                        <label id="label1" bindfield="title">审批通知</label>
+                        <label id="label2" bindfield="time">2011-09-20 12：00:00</label>
+                    </div>
+                </listView>
+            </div> 
         </div>
         <toolbar id="toolbar0">
             <input imagebuttontype="icontext" id="imagebutton2" value="首页" istogglebutton="false" class="imagebuttonclass" onclick="this.changePage()" type="imagebutton" checked="true"/>
