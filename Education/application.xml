@@ -14,8 +14,8 @@
   <view id="Courseware" ref="Courseware.dsl" include="true"> 
     <extend screenOrientation="landscape"/> 
   </view>  
-  <view id="Professor" ref="Professor.dsl" include="true">
-    <extend screenOrientation="landscape"/>
+  <view id="Professor" ref="Professor.dsl" include="true"> 
+    <extend screenOrientation="landscape"/> 
   </view>  
   <view id="Classmates" ref="Classmates.dsl" include="true"> 
     <extend screenOrientation="landscape"/> 
@@ -28,7 +28,8 @@
   </view>  
   <view id="MessageDetail" ref="MessageDetail.dsl" include="true"> 
     <extend screenOrientation="landscape"/> 
-  </view> 
+  </view>  
+  <view id="ProfessorDetail" ref="ProfessorDetail.dsl" include="true"/>
 </application>
 <!--
 【屏幕显示方向】
