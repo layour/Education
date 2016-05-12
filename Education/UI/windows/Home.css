@@ -14,12 +14,12 @@ width:fill;
 valign:TOP;
 }
  #panel0 {
-padding-left:8;
 padding-right:8;
+padding-left:8;
 halign:LEFT;
 height:44;
-layout:hbox;
 background:#00a1ea;
+layout:hbox;
 width:fill;
 valign:center;
 }
@@ -57,8 +57,8 @@ icon-text-spacing:3;
 halign:CENTER;
 height:0;
 weight:1;
-background:#ffffff;
 layout:hbox;
+background:#ffffff;
 width:fill;
 valign:top;
 }
@@ -66,8 +66,8 @@ valign:top;
 halign:center;
 height:fill;
 weight:2;
-background:#ffffff;
 layout:vbox;
+background:#ffffff;
 width:0;
 valign:CENTER;
 }
@@ -89,8 +89,8 @@ valign:center;
  #panel3 {
 halign:center;
 height:fill;
-background:#F5F5F5;
 layout:vbox;
+background:#F5F5F5;
 width:120;
 valign:TOP;
 }
@@ -158,8 +158,8 @@ valign:TOP;
 border-bottom-width:1;
 halign:LEFT;
 height:44;
-background:#FFFFFF;
 layout:hbox;
+background:#FFFFFF;
 width:fill;
 valign:center;
 border-bottom-color:#C7C7C7;
@@ -189,12 +189,12 @@ font-family:default;
 valign:center;
 }
  #toolbar0 {
-padding-right:50;
 padding-left:50;
+padding-right:50;
 halign:CENTER;
 height:49;
-background:#F5F5F5;
 layout:hbox;
+background:#F5F5F5;
 width:fill;
 valign:top;
 }

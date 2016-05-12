@@ -10,7 +10,28 @@
             <label id="label0">清华金融EMBA教务系统</label>
             <input id="imagebutton1" imagebuttontype="icon" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/> 
         </div>
-        <div id="panel1"/>
+        <div id="panel1">
+            <div id="panel5">
+                <input id="imagebutton10" imagebuttontype="icon" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/>
+                <label id="label4">课件</label>
+                <input id="imagebutton11" imagebuttontype="icon" value="返回" istogglebutton="false" class="imagebuttonclass" onclick="this.loadList()" type="imagebutton" checked="false"/>
+            </div>
+            <listView id="listviewdefine0" bindfield="list" onload="this.loadList()" onitemclick="this.listItemclick()" collapsed="true">
+                <div id="panel2">
+                    <input id="imagebutton9" imagebuttontype="icon" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/>
+                    <label id="label1" bindfield="title">清华EMBA01宏观经济分析</label>
+                    <input id="imagebutton8" imagebuttontype="icon" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/> 
+                </div>
+                <div id="panel3">
+                    <div id="panel4">
+                        <label id="label2">宏观经济学分析课堂作业</label>
+                        <label id="label3">发布日期：2016-05-12 12:12:00</label> 
+                    </div>
+                    <input id="button0" value="预览" class="textbtnclass" type="button"/>
+                    <input id="button1" value="下载" class="textbtnclass" type="button"/> 
+                </div> 
+            </listView> 
+        </div>
         <toolbar id="toolbar0">
             <input imagebuttontype="icontext" id="imagebutton2" value="首页" istogglebutton="true" class="imagebuttonclass" onclick="this.changePage()" type="imagebutton" checked="false"/>
             <input imagebuttontype="icontext" id="imagebutton3" value="课程" istogglebutton="true" class="imagebuttonclass" onclick="this.changePage()" type="imagebutton" checked="false"/>

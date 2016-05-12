@@ -39,7 +39,51 @@ function com$yonyou$education$CoursewareController$changePage(sender, args){
 	var index = $id("toolbar0").get("selectedIndex");
 	com.yonyou.education.PublicFunction.chanagePage(index);
 }
+function com$yonyou$education$CoursewareController$loadList(sender, args){
+	var json = {
+		list : [{
+			title : "清华EMBA01宏观经济分析"
+		},{
+			title : "清华EMBA01宏观经济分析"
+		},{
+			title : "清华EMBA01宏观经济分析"
+		},{
+			title : "清华EMBA01宏观经济分析"
+		},{
+			title : "清华EMBA01宏观经济分析"
+		}]
+	}
+	$ctx.push(json);
+}
+function com$yonyou$education$CoursewareController$listItemclick(sender, args){
+	var json = {
+		list : [{
+			title : "宏观经济分析课堂作业",
+			time : "发布日期：2016-05-12 12:00:00",
+			ListViewSelector : 1
+		},{
+			title : "宏观经济分析课堂作业",
+			time : "发布日期：2016-05-12 12:00:00",
+			ListViewSelector : 1
+		},{
+			title : "宏观经济分析课堂作业",
+			time : "发布日期：2016-05-12 12:00:00",
+			ListViewSelector : 1
+		},{
+			title : "宏观经济分析课堂作业",
+			time : "发布日期：2016-05-12 12:00:00",
+			ListViewSelector : 1
+		},{
+			title : "宏观经济分析课堂作业",
+			time : "发布日期：2016-05-12 12:00:00",
+			ListViewSelector : 1
+		}]
+	}
+	$ctx.push(json);
+}
 com.yonyou.education.CoursewareController.prototype = {
+    listItemclick : com$yonyou$education$CoursewareController$listItemclick,
+    loadList : com$yonyou$education$CoursewareController$loadList,
     changePage : com$yonyou$education$CoursewareController$changePage,
     initialize : com$yonyou$education$CoursewareController$initialize,
     evaljs : com$yonyou$education$CoursewareController$evaljs
