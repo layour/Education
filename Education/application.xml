@@ -1,18 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<application id="Education" appname="Education" versionCode="1" versionName="1" icon="app" theme="blue" jsengine="v2.0" package="com.yonyou.education" language="zh_cn" autoCheckUpdate="false"> 
+<application id="Education" appname="清华金融" versionCode="1" versionName="1" icon="app" theme="blue" jsengine="v2.0" package="com.yonyou.education" language="zh_cn" autoCheckUpdate="false" isLibrary="false"> 
   <permission id="internet"/>  
   <start view="Home"/>  
   <!--view id="demo" ref="demo.dsl"><extend screenOrientation="landscape|portrait|unspecified"/></view-->  
   <!--view id="demo" ref="demo.dsl"><extend windowSoftInputMode="stateUnspecified|stateUnchanged|stateHidden|stateAlwaysHidden|stateVisible|stateAlwaysVisible|adjustUnspecified|adjustResize|adjustPan"/></view-->  
-  <view id="Home" ref="Home.dsl" include="true"/>  
-  <view id="Course" ref="Course.dsl" include="true"/>  
-  <view id="Courseware" ref="Courseware.dsl" include="true"/>  
-  <view id="Professor" ref="Professor.dsl" include="true"/>  
-  <view id="Classmates" ref="Classmates.dsl" include="true"/>  
-  <view id="MyCenter" ref="MyCenter.dsl" include="true"/>  
-  <view id="Login" ref="Login.dsl" include="true"/>  
-  <view id="MessageDetail" ref="MessageDetail.dsl" include="true"/>
+  <view id="Home" ref="Home.dsl" include="true"> 
+    <extend screenOrientation="landscape"/> 
+  </view>  
+  <view id="Course" ref="Course.dsl" include="true"> 
+    <extend screenOrientation="landscape"/> 
+  </view>  
+  <view id="Courseware" ref="Courseware.dsl" include="true"> 
+    <extend screenOrientation="landscape"/> 
+  </view>  
+  <view id="Professor" ref="Professor.dsl" include="true">
+    <extend screenOrientation="landscape"/>
+  </view>  
+  <view id="Classmates" ref="Classmates.dsl" include="true"> 
+    <extend screenOrientation="landscape"/> 
+  </view>  
+  <view id="MyCenter" ref="MyCenter.dsl" include="true"> 
+    <extend screenOrientation="landscape"/> 
+  </view>  
+  <view id="Login" ref="Login.dsl" include="true"> 
+    <extend screenOrientation="landscape"/> 
+  </view>  
+  <view id="MessageDetail" ref="MessageDetail.dsl" include="true"> 
+    <extend screenOrientation="landscape"/> 
+  </view> 
 </application>
 <!--
 【屏幕显示方向】

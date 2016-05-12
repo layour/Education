@@ -36,7 +36,8 @@ function com$yonyou$education$HomeController$evaljs(js){
     eval(js)
 }
 function com$yonyou$education$HomeController$changePage(sender, args){
-	
+	var index = $id("toolbar0").get("selectedIndex");
+	com.yonyou.education.PublicFunction.chanagePage(index);
 }
 function com$yonyou$education$HomeController$loadList(sender, args){
 	var json = {

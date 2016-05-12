@@ -74,7 +74,7 @@ padding-right:12;
 padding-left:12;
 border-bottom-width:1;
 halign:LEFT;
-height:60.0;
+height:44;
 background:#FFFFFF;
 layout:hbox;
 width:fill;
@@ -141,7 +141,7 @@ padding-right:12;
 padding-left:12;
 border-bottom-width:1;
 halign:LEFT;
-height:60.0;
+height:50;
 background:#FFFFFF;
 layout:hbox;
 width:fill;
@@ -150,7 +150,7 @@ border-bottom-color:#C7C7C7;
 }
  #panel4 {
 halign:center;
-height:50;
+height:44;
 weight:3;
 layout:vbox;
 width:0;

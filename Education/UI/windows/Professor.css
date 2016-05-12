@@ -14,12 +14,12 @@ width:fill;
 valign:TOP;
 }
  #panel0 {
-padding-left:8;
 padding-right:8;
+padding-left:8;
 halign:LEFT;
 height:44;
-layout:hbox;
 background:#00a1ea;
+layout:hbox;
 width:fill;
 valign:center;
 }
@@ -57,18 +57,18 @@ icon-text-spacing:3;
 halign:center;
 height:0;
 weight:1;
-background:#ffffff;
 layout:vbox;
+background:#ffffff;
 width:fill;
 valign:TOP;
 }
  #toolbar0 {
-padding-right:50;
 padding-left:50;
+padding-right:50;
 halign:CENTER;
 height:49;
-background:#F5F5F5;
 layout:hbox;
+background:#F5F5F5;
 width:fill;
 valign:top;
 }

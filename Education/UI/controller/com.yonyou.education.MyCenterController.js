@@ -36,7 +36,8 @@ function com$yonyou$education$MyCenterController$evaljs(js){
     eval(js)
 }
 function com$yonyou$education$MyCenterController$changePage(sender, args){
-	
+	var index = $id("toolbar0").get("selectedIndex");
+	com.yonyou.education.PublicFunction.chanagePage(index);
 }
 com.yonyou.education.MyCenterController.prototype = {
     changePage : com$yonyou$education$MyCenterController$changePage,

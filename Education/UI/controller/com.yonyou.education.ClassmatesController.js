@@ -36,7 +36,8 @@ function com$yonyou$education$ClassmatesController$evaljs(js){
     eval(js)
 }
 function com$yonyou$education$ClassmatesController$changePage(sender, args){
-
+	var index = $id("toolbar0").get("selectedIndex");
+	com.yonyou.education.PublicFunction.chanagePage(index);
 }
 com.yonyou.education.ClassmatesController.prototype = {
     changePage : com$yonyou$education$ClassmatesController$changePage,
