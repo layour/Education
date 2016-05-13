@@ -42,11 +42,15 @@ try {
 	}
 
 	function mgOnclick(sender, args) {
-
+		$id("imagebutton9").set("background","#F8F8F8");
+		$id("imagebutton10").set("background","#ffffff");
+		$id("flipperdefine0").set("viewindex", 0);
 	}
 
 	function pswOnclick(sender, args) {
-
+		$id("imagebutton10").set("background","#F8F8F8");
+		$id("imagebutton9").set("background","#ffffff");
+		$id("flipperdefine0").set("viewindex", 1);
 	}
 
 

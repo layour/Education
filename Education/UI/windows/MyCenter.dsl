@@ -20,7 +20,7 @@
                 <input id="imagebutton10" imagebuttontype="text" value="修改密码" istogglebutton="false" onclick="pswOnclick()" type="imagebutton" checked="false"/> 
             </div>
             <div id="panel3">
-                <flipper id="flipperdefine0" viewindex="0">
+                <flipper id="flipperdefine0" isScroll="false" viewindex="0">
                     <div id="panel5">
                         <div id="panel7">
                             <label id="label2">姓名：</label>
@@ -37,7 +37,7 @@
                         <div id="panel10">
                             <label id="label8">邮箱：</label>
                             <label id="label9">123456789@qq.com</label> 
-                        </div>
+                        </div> 
                     </div>
                     <div id="panel6">
                         <div id="panel11">
@@ -55,7 +55,7 @@
                         <div id="panel14">
                             <label id="label16">确认：</label>
                             <label id="label17">123456</label> 
-                        </div>
+                        </div> 
                     </div> 
                 </flipper> 
             </div> 

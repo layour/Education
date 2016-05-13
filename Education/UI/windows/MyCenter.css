@@ -14,12 +14,12 @@ width:fill;
 valign:TOP;
 }
  #panel0 {
-padding-right:8;
 padding-left:8;
+padding-right:8;
 halign:LEFT;
 height:44;
-background:#00a1ea;
 layout:hbox;
+background:#00a1ea;
 width:fill;
 valign:center;
 }
@@ -57,8 +57,8 @@ icon-text-spacing:3;
 halign:CENTER;
 height:0;
 weight:1;
-layout:hbox;
 background:#ffffff;
+layout:hbox;
 width:fill;
 valign:top;
 }
@@ -70,9 +70,9 @@ width:200;
 valign:TOP;
 }
  #panel4 {
-padding-right:12;
-padding-left:12;
 border-bottom-width:1;
+padding-left:12;
+padding-right:12;
 halign:LEFT;
 height:100;
 layout:hbox;
@@ -108,7 +108,7 @@ icon-width:25;
 icon-height:25;
 height:50;
 color:#333333;
-background:#ffffff;
+background:#F8F8F8;
 font-size:14;
 icon-background-image:button_image;
 icon-pressed-image:button_image_touch;
@@ -123,7 +123,7 @@ icon-width:25;
 icon-height:25;
 height:50;
 color:#333333;
-background:#F8F8F8;
+background:#ffffff;
 font-size:14;
 icon-background-image:button_image;
 icon-pressed-image:button_image_touch;
@@ -393,12 +393,12 @@ font-family:default;
 valign:center;
 }
  #toolbar0 {
-padding-left:50;
 padding-right:50;
+padding-left:50;
 halign:CENTER;
 height:49;
-layout:hbox;
 background:#F5F5F5;
+layout:hbox;
 width:fill;
 valign:top;
 }
